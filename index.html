@@ -30,27 +30,26 @@
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
-                <a class="navbar-brand" href="#" rel="tooltip" title="Designed by Invision. Coded by Creative Tim"
-                    data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="#" rel="tooltip" title="Modern IT Solutions" data-placement="bottom" target="_blank">
                     Modern IT Solutions
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="document.getElementById('aboutus').scrollIntoView()" target="_blank">
+                        <a class="nav-link" href="#" data-target="aboutus">
                             <i class="now-ui-icons users_circle-08"></i>
                             <p>About us</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services" target="_blank">
+                        <a class="nav-link" href="#" data-target="services">
                             <i class="now-ui-icons ui-2_settings-90"></i>
                             <p>Services</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contactus" target="_blank">
+                        <a class="nav-link" href="#" data-target="contactus">
                             <i class="now-ui-icons ui-2_chat-round"></i>
                             <p>Contact Us</p>
                         </a>
@@ -72,11 +71,54 @@
             </div>
         </div>
         <div class="main">
-            <div class="section section-tabs">
+            <!-- About Us-->
+            <div class="section" id="aboutus">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 col-xl-12">
-                            <p class="category">Tabs with Icons on Card</p>
+                        <div class="col-lg-12">
+                            <h2 class="title">About us</h2>
+                            <h4>At Modern IT Solutions, we pride ourselves on providing local IT to the Longmeadow Community.</h4>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center">
+                            <img class="rounded-circle img-raised img-responsive img-center" src="./images/jake_kimball.jpg" alt="">
+                            <br>
+                            <h3>Jake Kimball
+                                <small>Founder</small>
+                            </h3>
+                            <p>What does this team member to? Keep it short! This is also a great spot for social links!
+                                <a href="mailto:jake@modernitsolutions.tech">Send Email</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center">
+                            <img class="rounded-circle img-raised" src="./images/mark_beznos.jpg" alt="">
+                            <h3>Mark Beznos
+                                <small>Co-Founder</small>
+                            </h3>
+                            <p>Full stack developer from Boston. Has worked with and deployed Android/Java, GoLang, SQL, R,
+                                Python, Haxe, C++/C, JS/HTML/CSS. And dashes of Data Science too.
+                                <a href="mailto:mark@modernitsolutions.tech">Send Email</a></p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center">
+                            <img class="rounded-circle img-raised" src="./images/matt_pahl.jpg" alt="">
+                            <h3>Matt Pahl
+                                <small>Co-Founder</small>
+                            </h3>
+                            <p>What does this team member to? Keep it short! This is also a great spot for social links!
+                                <a href="mailto:matt@modernitsolutions.tech">Send Email</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="services">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <h2 class="title">Services</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 col-xl-1"></div>
+                        <div class="col-md-10 col-xl-10">
+                            <!--<p class="category">Tabs with Icons on Card</p>-->
                             <!-- Nav tabs -->
                             <div class="card">
                                 <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
@@ -122,382 +164,75 @@
                                                 I will be the leader of a company that ends up being worth billions of dollars,
                                                 because I got the answers. I understand culture. I am the nucleus.</p>
                                         </div>
-                                        <div class="tab-pane" id="settings" role="tabpanel">
-                                            <p>
-                                                "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand
-                                                culture. I am the nucleus. I think that’s a responsibility that I have, to
-                                                push possibilities, to show people, this is the level that things could be
-                                                at."
-                                            </p>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Section Tabs -->
-            <div class="section section-pagination">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h4>Progress Bars</h4>
-                            <div class="progress-container">
-                                <span class="progress-badge">Default</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-                                        <span class="progress-value">25%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-container progress-primary">
-                                <span class="progress-badge">Primary</span>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 60%;">
-                                        <span class="progress-value">60%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <br />
-                            <h4>Navigation Pills</h4>
-                            <ul class="nav nav-pills nav-pills-primary" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#active" role="tablist">
-                                        <i class="fa fa-diamond"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#link" role="tablist">
-                                        <i class="fa fa-thermometer-full"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#link" role="tablist">
-                                        <i class="fa fa-suitcase"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" data-toggle="tab" href="#disabled" role="tablist">
-                                        <i class="fa fa-exclamation"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h4>Pagination</h4>
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination pagination-primary">
-                                    <li class="page-item active">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">5</a>
-                                    </li>
-                                </ul>
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item active">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <br>
-                            <h4>Labels</h4>
-                            <span class="badge badge-default">Default</span>
-                            <span class="badge badge-primary">Primary</span>
-                            <span class="badge badge-success">Success</span>
-                            <span class="badge badge-info">Info</span>
-                            <span class="badge badge-warning">Warning</span>
-                            <span class="badge badge-danger">Danger</span>
-                        </div>
-                    </div>
-                    <div class="space"></div>
-                    <h4>Notifications</h4>
-                </div>
-            </div>
-            <div class="section section-notifications" id="notifications">
-                <div class="alert alert-success" role="alert">
-                    <div class="container">
-                        <div class="alert-icon">
-                            <i class="now-ui-icons ui-2_like"></i>
-                        </div>
-                        <strong>Well done!</strong> You successfully read this important alert message.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">
-                                <i class="now-ui-icons ui-1_simple-remove"></i>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="alert alert-info" role="alert">
-                    <div class="container">
-                        <div class="alert-icon">
-                            <i class="now-ui-icons travel_info"></i>
-                        </div>
-                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">
-                                <i class="now-ui-icons ui-1_simple-remove"></i>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="alert alert-warning" role="alert">
-                    <div class="container">
-                        <div class="alert-icon">
-                            <i class="now-ui-icons ui-1_bell-53"></i>
-                        </div>
-                        <strong>Warning!</strong> Better check yourself, you're not looking too good.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">
-                                <i class="now-ui-icons ui-1_simple-remove"></i>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="alert alert-danger" role="alert">
-                    <div class="container">
-                        <div class="alert-icon">
-                            <i class="now-ui-icons objects_support-17"></i>
-                        </div>
-                        <strong>Oh snap!</strong> Change a few things up and try submitting again.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">
-                                <i class="now-ui-icons ui-1_simple-remove"></i>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!--  end notifications -->
-            <!-- About Us-->
-            <div class="section" id="aboutus">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="title">Our Team</h2>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 text-center">
-                            <img class="rounded-circle img-raised img-responsive img-center" src="./images/jake_kimball.jpg" alt="">
-                            <br>
-                            <h3>Jake Kimball
-                                <small>Founder</small>
-                            </h3>
-                            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 text-center">
-                            <img class="rounded-circle img-raised" src="./images/mark_beznos.jpg" alt="">
-                            <h3>Mark Beznos
-                                <small>Co-Founder</small>
-                            </h3>
-                            <p>Full stack developer from Boston. Has worked with and deployed Android/Java, GoLang, SQL, R, Python, Haxe, C++/C, JS/HTML/CSS. And dashes of Data Science too.</p>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 text-center">
-                            <img class="rounded-circle img-raised" src="./images/matt_pahl.jpg" alt="">
-                            <h3>Matt Pahl
-                                <small>Co-Founder</small>
-                            </h3>
-                            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section section-javascript" id="javascriptComponents">
-                <div class="container">
-                    <h3 class="title">Javascript components</h3>
-                    <div class="row" id="modals">
-                        <div class="col-md-6">
-                            <h4>Modal</h4>
-                            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                                Launch Modal
-                            </button>
-                            <button class="btn btn-warning" data-toggle="modal" data-target="#myModal1">
-                                Launch Modal Mini
-                            </button>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Popovers</h4>
-                            <button type="button" class="btn btn-default" data-color="popover-primary" data-toggle="popover" data-placement="left" title="Popover on left"
-                                data-content="Here will be some very useful information about his popover.<br> Here will be some very useful information about his popover."
-                                data-container="body">On left</button>
-                            <button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" title="Popover on top" data-content="Here will be some very useful information about his popover."
-                                data-container="body">On top</button>
-                            <button type="button" class="btn btn-default" data-toggle="popover" data-placement="bottom" title="Popover on bottom" data-content="Here will be some very useful information about his popover."
-                                data-container="body">On bottom</button>
-                            <button type="button" class="btn btn-default" data-toggle="popover" data-placement="right" title="Popover on right" data-content="Here will be some very useful information about his popover."
-                                data-container="body">On right</button>
-                        </div>
-                        <br />
-                        <br />
-                        <div class="col-md-6">
-                            <h4>Datepicker</h4>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="datepicker-container">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control date-picker" value="10/05/2016" / data-datepicker-color="primary">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Tooltips</h4>
-                            <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="left" title="Tooltip on left"
-                                data-container="body" data-animation="true" data-delay="100">On left</button>
-                            <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="top" title="Tooltip on top"
-                                data-container="body" data-animation="true">On top</button>
-                            <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"
-                                data-container="body" data-animation="true">On bottom</button>
-                            <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="right" title="Tooltip on right"
-                                data-container="body" data-animation="true">On right</button>
-                            <div class="clearfix"></div>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="col">
-                            <h4>Carousel</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="carousel">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                            <div id="carouselExampleControls" class="carousel slide">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img class="d-block" src="assets/img/bg1.jpg" alt="First slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Nature, United States</h5>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block" src="assets/img/bg3.jpg" alt="Second slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Somewhere Beyond, United States</h5>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block" src="assets/img/bg4.jpg" alt="Third slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Yellowstone National Park, United States</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                    <i class="now-ui-icons arrows-1_minimal-left"></i>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                    <i class="now-ui-icons arrows-1_minimal-right"></i>
-                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Sart Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                            <i class="now-ui-icons ui-1_simple-remove"></i>
-                        </button>
-                        <h4 class="title title-up">Modal title</h4>
+        <div class="section" id="contactus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="title">Contact Us</h2>
                     </div>
-                    <div class="modal-body">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                            the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                            large language ocean. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-                            into your mouth.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default">Nice Button</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--  End Modal -->
-        <!-- Mini Modal -->
-        <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <div class="modal-profile">
-                            <i class="now-ui-icons users_circle-08"></i>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-block">
+                                <br />
+                                <br />
+
+                                <h3 style="line-height:20%;"><i class="now-ui-icons location_pin" style="line-height:6%;color:#339966"></i> Location:</h3>
+                                <p style="margin-top:6%;line-height:35%">Longmeadow, MA</p>
+                                <br />
+                                <br />
+                                <h3 style="line-height:20%;"><i class="now-ui-icons ui-1_send" style="line-height:6%;color:#339966"></i> E-Mail Address:</h3>
+                                <p style="margin-top:6%;line-height:35%"><a href="mailto:jake@modernitsolutions.tech">Send Email</a></p>
+                                <br />
+                                <br />
+                                <h3 style="line-height:20%;"><i class="now-ui-icons tech_mobile" style="line-height:6%;color:#339966"></i> Phone Number:</h3>
+                                <p style="margin-top:6%;line-height:35%"><a href="tel:14133184152">+1 (413) 318-4152</a></p>
+                                <br />
+                                <br />
+                            </div>
                         </div>
                     </div>
-                    <div class="modal-body">
-                        <p>Always have an access to your profile</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-link btn-neutral">Back</button>
-                        <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-block">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47404.15096562504!2d-72.60477351443436!3d42.0483386273593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6e434eeead18f%3A0xabc97a3505fe2561!2sLongmeadow%2C+MA!5e0!3m2!1sen!2sus!4v1495592366974"
+                                    width="565" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--  End Modal -->
         <footer class="footer" data-background-color="black">
             <div class="container">
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://www.creative-tim.com">
-                                Creative Tim
+                            <a href="#">
+                                Modern IT Solutions
                             </a>
                         </li>
                         <li>
-                            <a href="http://presentation.creative-tim.com">
+                            <a href="#aboutus">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="http://blog.creative-tim.com">
-                                Blog
+                            <a href="#services">
+                                Services
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
+                            <a href="#contactus">
+                                Contact Us
                             </a>
                         </li>
                     </ul>
@@ -532,14 +267,13 @@
         nowuiKit.initSliders();
     });
 
-    function scrollToDownload() {
-
-        if ($('.section-download').length != 0) {
-            $("html, body").animate({
-                scrollTop: $('.section-download').offset().top
-            }, 1000);
-        }
-    }
+    $(document).on('click', '.nav-link', function (event) {
+        event.preventDefault();
+        var target = "#" + this.getAttribute('data-target');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);
+    });
 </script>
 
 </html>
